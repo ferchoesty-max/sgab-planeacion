@@ -38,4 +38,7 @@ Basado en la estructura del sistema SGAB:
 
 ## 5. Diagrama de Casos de Uso
 *Actores: Administrativo, Docente, Alumno.*
+<<<<<<< HEAD
 ![Diagrama Final del Sistema](diagrama.png.png)
+=======
+>>>>>>> 3fa2264c4534c1e4f45316a80102344af8b5d28f
