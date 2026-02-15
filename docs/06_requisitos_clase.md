@@ -38,26 +38,3 @@ Basado en la estructura del sistema SGAB:
 
 ## 5. Diagrama de Casos de Uso
 *Actores: Administrativo, Docente, Alumno.*
-
-```mermaid
-usecaseDiagram
-    actor "Administrativo" as admin
-    actor "Docente" as profe
-    actor "Alumno" as alumno
-
-    package Sistema_SGAB {
-        usecase "Registrar Alumnos" as UC1
-        usecase "Registrar Materias" as UC2
-        usecase "Capturar Calificaciones" as UC3
-        usecase "Consultar Historial" as UC4
-        usecase "Login" as UC5
-    }
-
-    admin --> UC1
-    admin --> UC2
-    admin --> UC5
-    profe --> UC3
-    profe --> UC5
-    alumno --> UC4
-    alumno --> UC5
-```
